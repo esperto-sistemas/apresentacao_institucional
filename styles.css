@@ -311,53 +311,64 @@ button {
   background: #c07075;
 }
 
-/* About */
-.about-main {
-  margin-top: 7.8cqw;
-  width: 65cqw;
+/* Discovery conversation */
+.discovery-slide .slide-heading h1 {
+  margin-bottom: 1.15cqw;
 }
 
-.about-main strong {
-  display: block;
-  color: var(--blue-text);
-  font-size: 2.48cqw;
-  line-height: 1.23;
+.discovery-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.55cqw;
+  margin: 3.2cqw 0 0 0.78cqw;
 }
 
-.about-main p {
-  margin: 5.8cqw 0 0;
-  color: var(--muted);
-  font-size: 1.94cqw;
-  line-height: 1.15;
+.discovery-grid article {
+  min-height: 17.4cqw;
+  padding: 1.55cqw 1.55cqw 1.3cqw;
+  border: 0.12cqw solid var(--line);
+  border-top: 0.42cqw solid var(--orange);
+  background: #fff;
 }
 
-.about-aside {
-  position: absolute;
-  top: 19.8cqw;
-  right: 8.65cqw;
-  width: 25cqw;
-}
-
-.about-aside > b {
-  display: block;
-  color: #d5e1e5;
-  font-size: 11.6cqw;
+.discovery-grid article > b,
+.meeting-cue > span {
+  color: var(--orange);
+  font-size: 0.95cqw;
   font-weight: 700;
-  line-height: 0.86;
-  text-align: right;
+  letter-spacing: 0.04cqw;
 }
 
-.about-aside i {
-  display: block;
-  height: 0.42cqw;
-  margin: 6.3cqw 0 2.2cqw;
-  background: var(--orange);
+.discovery-grid h2 {
+  margin: 2.15cqw 0 1.05cqw;
+  color: var(--navy-text);
+  font-size: 1.95cqw;
+  letter-spacing: -0.04cqw;
 }
 
-.about-aside strong {
+.discovery-grid p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 1.38cqw;
+  line-height: 1.3;
+}
+
+.meeting-cue {
+  margin: 2.6cqw 0 0 0.78cqw;
+}
+
+.meeting-cue strong {
   display: block;
-  margin: 0 0 1.55cqw 0.7cqw;
-  font-size: 1.6cqw;
+  margin-top: 0.7cqw;
+  color: var(--blue-text);
+  font-size: 1.65cqw;
+  line-height: 1.2;
+}
+
+.meeting-cue p {
+  margin: 0.65cqw 0 0;
+  color: var(--muted);
+  font-size: 1.28cqw;
 }
 
 /* Services */
