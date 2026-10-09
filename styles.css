@@ -950,6 +950,11 @@ button {
   cursor: pointer;
 }
 
+.controls .icon {
+  width: 20px;
+  height: 20px;
+}
+
 .controls button:hover,
 .controls button:focus-visible {
   background: rgb(255 255 255 / 14%);
@@ -979,13 +984,6 @@ button {
   height: 22px;
   margin: 0 2px;
   background: rgb(255 255 255 / 18%);
-}
-
-.fullscreen-button i {
-  width: 15px;
-  height: 15px;
-  border: 2px solid currentColor;
-  border-radius: 1px;
 }
 
 @media (prefers-reduced-motion: reduce) {
